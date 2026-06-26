@@ -6,24 +6,24 @@ sidebar_position: 1
 
 ```markmap initialExpandLevel=2
 - Marketing Modules
-  - Marketing Automation
-    - Configuration
-      - Campaigns
+  - [Marketing Automation](./Automation/intro.md)
+    - [Configuration](./Automation/intro.md#configuration)
+      - [Campaigns](./Automation/intro.md#configuration)
         - Create from Scratch (New)
         - Templates Available
           - Tag Hot Contacts
           - Welcome Flow
-          - Double Opt-in
+          - [Double Opt-in](./Automation/Campaign%20templates/double-opt-in.md)
           - Commercial Prospection
           - Schedule Calls
           - Priority Hot Leads
-      - Targets & Filters (Audience Targeting)
+      - [Targets & Filters (Audience Targeting)](./Automation/audience-targeting.md)
         - Target (Odoo Models: Lead, Contact, etc.)
         - Filter (Add conditions)
         - Unicity Based On (Avoid duplication, e.g., Email)
         - Include Archived
         - Save as Favorite Filter
-      - Workflow Activities
+      - [Workflow Activities](./Automation/campaign-workflow-activities.md)
         - Workflow (Structure of activities)
         - Activity Types
           - Email (Pick or Create Template)
@@ -51,12 +51,12 @@ sidebar_position: 1
         - Expiry Duration (Hours, Days, Months, Weeks)
         - Activity Domain (Activity Filters)
         - Child Activities (Triggered by parent activity)
-    - Testing & Running Campaigns
+    - [Testing & Running Campaigns](./Automation/testing-running-campaigns.md)
       - Launch a Test (Pick/Create Participant)
       - Run Button (Run activity during test)
       - Start Campaign (Change status to Running)
       - Stop Campaign (Must be in Running status)
-    - Reporting & Metrics (Campaigns Metrics)
+    - [Reporting & Metrics (Campaigns Metrics)](./Automation/campaign-metrics.md)
       - Activity Analytics (Real-time stats)
         - Success, Rejected, Sent, Clicked, Replied, Bounced
         - Activity Graph (Success: Blue, Rejected: Red)
@@ -64,14 +64,14 @@ sidebar_position: 1
       - Link Tracker (Reporting menu)
       - Traces (All activity results)
       - Participants (Tracking attendees)
-  - Email Marketing
-    - Dashboard (List, Kanban, Calendar views)
-    - Settings (Configuration)
+  - [Email Marketing](./Email/intro.md)
+    - [Dashboard (List, Kanban, Calendar views)](./Email/intro.md#email-marketing-dashboard)
+    - [Settings (Configuration)](./Email/intro.md#settings)
       - Mailing Campaigns (Enable campaign management)
       - Blacklist Option when Unsubscribing
       - Dedicated Server
       - 24H Stat Mailing Reports
-    - Create an Email (Mass Mailing)
+    - [Create an Email (Mass Mailing)](./Email/intro.md#create-an-email)
       - Subject (Supports Emojis, Save as Template)
       - Recipients
         - Selected from Mailing List (Default)
@@ -91,41 +91,41 @@ sidebar_position: 1
         - Email Content (Preview Text, Send From, Reply To, Attachments)
         - Tracking (Responsible, Campaign Assignment)
       - Send, Schedule, Test Buttons (Draft -> In Queue -> Sending -> Sent)
-    - Mailing Lists
-      - Creation & Metrics
+    - [Mailing Lists](./Email/mailing-lists.md)
+      - [Creation & Metrics](./Email/mailing-lists.md#create-mailing-lists)
         - Recipients Count
         - Mailings Count
         - % Bounce, % Opt-out, % Blacklist
         - Import Contacts (Paste list or Upload .xls/.csv file)
         - Import Options (Batch Import, Start at line, Test/Import)
-      - Mailing List Contacts (New Contact, Subscriptions to multiple lists)
-    - Manage Unsubscriptions (Blacklist)
-      - Unsubscribe Link (Default at end of email)
+      - [Mailing List Contacts (New Contact, Subscriptions to multiple lists)](./Email/mailing-lists.md#mailing-lists-contacts)
+    - [Manage Unsubscriptions (Blacklist)](./Email/manage-unsubscriptions.md)
+      - [Unsubscribe Link (Default at end of email)](./Email/manage-unsubscriptions.md#unsubscribe-and-blacklist)
       - Opt-out Reasons (Configurable)
-      - Blacklist (Exclude Me option adds email to mail_blacklist)
-      - Blacklisted Email Addresses View (Ability to Unblacklist)
-    - Lost Leads Reactivation Email
-      - Minimum Requirements
+      - [Blacklist (Exclude Me option adds email to mail_blacklist)](./Email/manage-unsubscriptions.md#unsubscribe-and-blacklist)
+      - [Blacklisted Email Addresses View (Ability to Unblacklist)](./Email/manage-unsubscriptions.md#unsubscribe-and-blacklist)
+    - [Lost Leads Reactivation Email](./Email/lost-leads-reactivation-email.md)
+      - [Minimum Requirements](./Email/lost-leads-reactivation-email.md#minimum-requirements)
         - Recipients Model: Lead/crm.lead
         - Blacklist Filter: is set
         - Created On (Timeframe)
         - Stage (Not in specific stages)
         - Lost Reason
         - Active Filter (Inactive/Active)
-      - Email Nurturing (Process to convert leads)
-    - Analyze Metrics
-      - View Metrics (Smart buttons on each mailing)
-      - Mass Mailing Analysis (Reporting)
+      - [Email Nurturing (Process to convert leads)](./Email/lost-leads-reactivation-email.md#email-nurturing)
+    - [Analyze Metrics](./Email/analyze-metrics.md)
+      - [View Metrics (Smart buttons on each mailing)](./Email/analyze-metrics.md#view-metrics)
+      - [Mass Mailing Analysis (Reporting)](./Email/analyze-metrics.md#mass-mailing-analysis)
       - Opt-Out Report (Reporting)
-  - SMS Marketing
+  - [SMS Marketing](./SMS/intro.md)
     - Similar Interface to Email Marketing
-    - Mobile Field (In Mailing List Contacts)
-    - Link Tracker
+    - [Mobile Field (In Mailing List Contacts)](./SMS/intro.md#mobile)
+    - [Link Tracker](./SMS/intro.md#link-tracker)
       - Must be created manually (No in-place tracking)
       - Fields: Target Link, Page Title, Button Label
       - UTM Fields: Mass Mailing, Campaign, Medium, Source
-  - ZNS Marketing
-  - ZaloOA Marketing
+  - [ZNS Marketing](./ZNS/intro.md)
+  - [ZaloOA Marketing](./ZaloOA/intro.md)
 ```
 
 # Marketing modules

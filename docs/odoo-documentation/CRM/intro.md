@@ -6,36 +6,36 @@ sidebar_position: 1
 
 ```markmap initialExpandLevel=2
 - CRM Features & Analysis
-  - Acquire & Convert Leads/Opportunities
-    - Lead Mining
-      - Generate leads into Odoo DB
-      - Filters: Country, Industry, Company Size
-      - Requires IAP credits (Pricing)
-      - Configuration: Activate Lead Mining in Settings
-    - Lead Enrichment
+  - [Acquire & Convert Leads/Opportunities](./Acquire%20leads)
+    - [Lead Mining](./Acquire%20leads/lead-mining.md)
+      - [Generate leads into Odoo DB](./Acquire%20leads/lead-mining.md#generate-leads)
+      - [Filters: Country, Industry, Company Size](./Acquire%20leads/lead-mining.md#generate-leads)
+      - [Requires IAP credits (Pricing)](./Acquire%20leads/lead-mining.md#pricing)
+      - [Configuration: Activate Lead Mining in Settings](./Acquire%20leads/lead-mining.md#configuration)
+    - [Lead Enrichment](./Optimize%20your%20day-to-day%20work/lead-enrichment.md)
       - Paid service (IAP credits)
       - Provides corporate data (Name, Industry, Size)
       - Based on email domain
-      - Methods: Automatic (Cron job) or Manual (On demand)
-    - Partner Autocomplete (Enrich Contacts)
+      - [Methods: Automatic (Cron job) or Manual (On demand)](./Optimize%20your%20day-to-day%20work/lead-enrichment.md#manual-lead-enrichment)
+    - [Partner Autocomplete (Enrich Contacts)](./Optimize%20your%20day-to-day%20work/enrich-contact.md)
       - Paid feature
       - Fills company data based on name input
-      - Configuration: Activate in Settings > Contacts
-    - Create Opportunities from Web Contact Forms
-      - Customize forms via Web Editor
+      - [Configuration: Activate in Settings > Contacts](./Optimize%20your%20day-to-day%20work/enrich-contact.md#configuration)
+    - [Create Opportunities from Web Contact Forms](./Acquire%20leads/create-opportunities-from-web-contact-forms.md)
+      - [Customize forms via Web Editor](./Acquire%20leads/create-opportunities-from-web-contact-forms.md#customize-website-forms)
       - Action: Create an Opportunity (or Lead if active)
-      - Auto-assign Sales Team/Salesperson
-    - Convert Leads into Opportunities
+      - [Auto-assign Sales Team/Salesperson](./Acquire%20leads/create-opportunities-from-web-contact-forms.md#assign-sales-teams-va-salespeople)
+    - [Convert Leads into Opportunities](./Acquire%20leads/convert-leads-into-opportunities.md)
       - Leads act as final review step
-      - Configuration: Activate 'Leads' in Settings
-      - Conversion Actions (Popup)
+      - [Configuration: Activate 'Leads' in Settings](./Acquire%20leads/convert-leads-into-opportunities.md#configuration)
+      - [Conversion Actions (Popup)](./Acquire%20leads/convert-leads-into-opportunities.md#convert-a-lead-into-an-opportunity)
         - Create new opportunity
         - Merge with existing opportunity
         - Assign Salesperson/Team
         - Customer: Create New or Link Existing
-  - Assign and Track Leads
-    - Predictive Lead Scoring
-      - Automatic assignment based on winning probability
+  - [Assign and Track Leads](./Assign%20and%20track%20leads)
+    - [Predictive Lead Scoring](./Assign%20and%20track%20leads/assign-leads-with-predictive-lead-scoring.md)
+      - [Automatic assignment based on winning probability](./Assign%20and%20track%20leads/assign-leads-with-predictive-lead-scoring.md#predictive-lead-scoring)
       - Machine-learning model using historical CRM data
       - Uses Naive Bayes formula
       - Data improves with more opportunities
@@ -44,122 +44,122 @@ sidebar_position: 1
         - Activated: State, Country, Phone/Email Quality, Source, Language, Tags
         - Always Affecting: Stage, Team
       - Manual Probability Change possible (Restored by AI icon)
-    - Rule-Based Assignment
-      - Assign leads based on defined rules (e.g., Probability)
-      - Configuration: Activate in Settings
-      - Running Options: Manually or Repeatedly (Auto-assignment)
-      - Rules configured per Sales Team/Member (Edit Domain)
+    - [Rule-Based Assignment](./Assign%20and%20track%20leads/assign-leads-with-predictive-lead-scoring.md#configure-rule-based-assignment)
+      - [Assign leads based on defined rules (e.g., Probability)](./Assign%20and%20track%20leads/assign-leads-with-predictive-lead-scoring.md#configure-rule-based-assignment)
+      - [Configuration: Activate in Settings](./Assign%20and%20track%20leads/assign-leads-with-predictive-lead-scoring.md#configure-rule-based-assignment)
+      - [Running Options: Manually or Repeatedly (Auto-assignment)](./Assign%20and%20track%20leads/assign-leads-with-predictive-lead-scoring.md#configure-rule-based-assignment)
+      - [Rules configured per Sales Team/Member (Edit Domain)](./Assign%20and%20track%20leads/assign-leads-with-predictive-lead-scoring.md#configure-rule-based-assignment)
       - Option to Skip Auto Assignment
-    - Resellers
-      - Leads forwarded automatically or manually
-      - Configuration: Partner Levels (Gold, Silver, Bronze) with Level Weight
-      - Partner Activations (Status)
-      - Assignment based on Level and Location
-  - Pipeline Management & Organization
-    - Sales Teams
-      - Manage teams with separate rules and goals
-      - Fields: Name, Team Leader, Email Alias (Auto Lead/Opp Creation)
-      - Invoice Target (Monthly expected revenue)
+    - [Resellers](./Assign%20and%20track%20leads/resellers.md)
+      - [Leads forwarded automatically or manually](./Assign%20and%20track%20leads/resellers.md#forward-leads-to-partners)
+      - [Configuration: Partner Levels (Gold, Silver, Bronze) with Level Weight](./Assign%20and%20track%20leads/resellers.md#configuration)
+      - [Partner Activations (Status)](./Assign%20and%20track%20leads/resellers.md#configuration)
+      - [Assignment based on Level and Location](./Assign%20and%20track%20leads/resellers.md#forward-leads-to-partners)
+  - [Pipeline Management & Organization](./Organize%20the%20pipeline)
+    - [Sales Teams](./Organize%20the%20pipeline/manage-sales-team.md)
+      - [Manage teams with separate rules and goals](./Organize%20the%20pipeline/manage-sales-team.md#configuration)
+      - [Fields: Name, Team Leader, Email Alias (Auto Lead/Opp Creation)](./Organize%20the%20pipeline/manage-sales-team.md#configuration)
+      - [Invoice Target (Monthly expected revenue)](./Organize%20the%20pipeline/manage-sales-team.md#configuration)
       - Support Multi Teams (Salesperson on multiple teams)
-      - Dashboard: View pipeline, quotations, invoice progress
+      - [Dashboard: View pipeline, quotations, invoice progress](./Organize%20the%20pipeline/manage-sales-team.md#sales-team-dashboard)
     - Leads & Opportunities Lifecycle
       - Pipeline: Kanban view with stages (Drag-and-drop)
       - Probabilities assigned per stage (Editable)
       - Automation actions customizable per stage
-    - Lost Leads/Opportunities
-      - Marking as Lost requires Lost Reason
-      - Lost Reasons configurable in Settings
-      - View Lost via CRM Filters
-      - Restore by Unarchiving
+    - [Lost Leads/Opportunities](./Organize%20the%20pipeline/lost-opportunity.md)
+      - [Marking as Lost requires Lost Reason](./Organize%20the%20pipeline/lost-opportunity.md#danh-dau-1-opportunity-la-lost)
+      - [Lost Reasons configurable in Settings](./Organize%20the%20pipeline/lost-opportunity.md#danh-dau-1-opportunity-la-lost)
+      - [View Lost via CRM Filters](./Organize%20the%20pipeline/lost-opportunity.md#view-lost-opportunities)
+      - [Restore by Unarchiving](./Organize%20the%20pipeline/lost-opportunity.md#khoi-phuc-lost-opportunity)
       - Archived Opportunities hidden from Reports
-    - Merging Similar Leads/Opportunities
-      - Identified by similar phone/email
-      - Merge via 'Similar Leads' button (Irreversible process)
+    - [Merging Similar Leads/Opportunities](./Organize%20the%20pipeline/merge-similar-leads.md)
+      - [Identified by similar phone/email](./Organize%20the%20pipeline/merge-similar-leads.md#merge-automatically)
+      - [Merge via 'Similar Leads' button (Irreversible process)](./Organize%20the%20pipeline/merge-similar-leads.md#merge-manually)
       - Merged result is active; data logged in chatter
       - Situations to Avoid Merging
         - Different contacts in the same organization
         - Multiple independent salespeople assigned
         - Similar but not perfectly matching contact info
-    - Create and Send Quotations
+    - [Create and Send Quotations](./Acquire%20leads/create-send-quotation.md)
       - Requires Sales app installed
       - Created from Opportunity form ('New Quotation')
-      - Customer Handling (if blank)
+      - [Customer Handling (if blank)](./Acquire%20leads/create-send-quotation.md#customer)
         - Create new customer
         - Link to existing customer
         - Do not link to a customer
-      - Use Quotation Templates
-      - Quotation Date, Expiration, Pricelist, Payment Term fields
-      - Order Lines: Add Products (Manual or Catalog), Sections
-      - Preview via Customer Portal
-      - Send via Email (Status becomes 'Quotation Sent')
-    - Mark Opportunity Won/Lost
+      - [Use Quotation Templates](./Acquire%20leads/create-send-quotation.md#use-quotation-templates)
+      - [Quotation Date, Expiration, Pricelist, Payment Term fields](./Acquire%20leads/create-send-quotation.md#fields)
+      - [Order Lines: Add Products (Manual or Catalog), Sections](./Acquire%20leads/create-send-quotation.md#order-lines)
+      - [Preview via Customer Portal](./Acquire%20leads/create-send-quotation.md#preview-quotations)
+      - [Send via Email (Status becomes 'Quotation Sent')](./Acquire%20leads/create-send-quotation.md#send-quotations)
+    - [Mark Opportunity Won/Lost](./Acquire%20leads/create-send-quotation.md#mark-an-opportunity-won-or-lost)
       - Buttons available in form view
       - Won/Lost determines pipeline cleanness
-    - Activities
-      - Tasks attached to records (Call, Email, Meeting, To Do)
-      - Scheduled on chatter, kanban, list views
-      - Activity Types
+    - [Activities](./Optimize%20your%20day-to-day%20work/utilize-activities.md)
+      - [Tasks attached to records (Call, Email, Meeting, To Do)](./Optimize%20your%20day-to-day%20work/utilize-activities.md#schedule-activities)
+      - [Scheduled on chatter, kanban, list views](./Optimize your day-to-day work/utilize-activities.md#schedule-activities)
+      - [Activity Types](./Optimize your day-to-day work/utilize-activities.md#activity-types)
         - Configurable (Name, Action, Default User/Summary)
         - Chaining Type: Suggest Next or Trigger Next Activity
-      - Activity Plans
+      - [Activity Plans](./Optimize your day-to-day work/utilize-activities.md#activity-plans)
         - Create plans (Activities to Create tab)
         - Set Assignment (Ask at launch/Default user)
         - Launch plan on Opportunity via Scheduled Activity popup
       - Must be marked 'Done' to ensure accurate pipeline status
-  - Analyze Performance (Reporting)
-    - Pipeline Analysis (CRM > Reporting > Pipeline)
-      - Tracks leads/opportunities by stage
-      - View Options
+  - [Analyze Performance (Reporting)](./Analyze%20performance)
+    - [Pipeline Analysis (CRM > Reporting > Pipeline)](./Analyze%20performance/pipeline-analysis.md)
+      - [Tracks leads/opportunities by stage](./Analyze%20performance/pipeline-analysis.md#pipeline-analysis-report)
+      - [View Options](./Analyze%20performance/pipeline-analysis.md#pipeline-analysis-report)
         - Graph (Bar, Line, Pie)
         - Pivot (Download XLSX, Flip Axis)
         - List
         - Cohort (Enterprise Only)
-      - Measurement Options
+      - [Measurement Options](./Analyze%20performance/pipeline-analysis.md#pipeline-analysis-report)
         - Count (Default)
         - Expected Revenue / MRR
         - Prorated Revenue / MRR
         - Days to Assign/Close/Convert
       - Custom Filters and Groups available
       - Reports can be Saved (Favorites) or Shared
-      - Win/Loss Reports
+      - [Win/Loss Reports](./Analyze%20performance/pipeline-analysis.md#winloss-reports)
         - Formula: Opportunities Won / Opportunities Loss
         - Filtered by active/inactive leads over time
-    - Expected Revenue Report
+    - [Expected Revenue Report](./Analyze%20performance/expected-revenue-report.md)
       - Total cash value of leads expected to close by a date
-      - Measure: Expected Revenue in Pipeline Analysis
-      - Filters: Expected Closing Date, Exclude Unassigned, Specific Sales Teams
-    - Forecast Report (CRM > Reporting > Forecast)
-      - Views upcoming opportunities (Default 4 months)
-      - Grouped by Expected Closing Date (Editable by drag/drop)
-      - Prorated Revenue
+      - [Measure: Expected Revenue in Pipeline Analysis](./Analyze%20performance/expected-revenue-report.md#expected-revenue-report)
+      - [Filters: Expected Closing Date, Exclude Unassigned, Specific Sales Teams](./Analyze%20performance/expected-revenue-report.md#expected-revenue-report)
+    - [Forecast Report (CRM > Reporting > Forecast)](./Analyze%20performance/forecase-report.md)
+      - [Views upcoming opportunities (Default 4 months)](./Analyze%20performance/forecase-report.md#forecast-report)
+      - [Grouped by Expected Closing Date (Editable by drag/drop)](./Analyze%20performance/forecase-report.md#forecast-report)
+      - [Prorated Revenue](./Analyze%20performance/forecase-report.md#forecast-report)
         - Calculated: Expected Revenue x Probability
         - Auto-updated when opportunities move month-to-month
-    - Unattended Leads Report
-      - Identifies active leads with scheduled/overdue activities
+    - [Unattended Leads Report](./Assign%20and%20track%20leads/unattended-leads-report.md)
+      - [Identifies active leads with scheduled/overdue activities](./Assign%20and%20track%20leads/unattended-leads-report.md#unattended-leads-report)
       - Requires consistent use of Activities feature
-      - Filters: Past Due Activities (<= Today), Exclude Unassigned, Specific Teams
-    - Quality Leads Report
-      - Tracks leads likely to result in sales
-      - Quality Filters (Examples)
+      - [Filters: Past Due Activities (<= Today), Exclude Unassigned, Specific Teams](./Assign%20and%20track%20leads/unattended-leads-report.md#unattended-leads-report)
+    - [Quality Leads Report](./Assign%20and%20track%20leads/quality-leads-report.md)
+      - [Tracks leads likely to result in sales](./Assign%20and%20track%20leads/quality-leads-report.md#quality-leads-report)
+      - [Quality Filters (Examples)](./Assign%20and%20track%20leads/quality-leads-report.md#quality-leads-report)
         - Email/Phone set
         - Source, Stage, Medium, Campaign
         - Exclude specific Lost Reasons
       - Grouped by Salesperson
-    - Lead Distribution Report
-      - Checks fair distribution among salespeople
-      - Filters: Lead Creation Date, Sales Team, Contact Method (Email/Phone), Active Status
-    - Marketing Attribution Reports (CRM > Reporting > Leads)
-      - Analyzes lead source and marketing impact
-      - Uses UTM Parameters
+    - [Lead Distribution Report](./Assign%20and%20track%20leads/lead-distribution-report.md)
+      - [Checks fair distribution among salespeople](./Assign%20and%20track%20leads/lead-distribution-report.md#lead-distribution-report)
+      - [Filters: Lead Creation Date, Sales Team, Contact Method (Email/Phone), Active Status](./Assign%20and%20track%20leads/lead-distribution-report.md#lead-distribution-report)
+    - [Marketing Attribution Reports (CRM > Reporting > Leads)](./Assign%20and%20track%20leads/marketing-attribution.md)
+      - [Analyzes lead source and marketing impact](./Assign%20and%20track%20leads/marketing-attribution.md#marketing-attribution-report)
+      - [Uses UTM Parameters](./Assign%20and%20track%20leads/marketing-attribution.md#marketing-attribution-report)
         - Tracking modules embedded in URLs
         - Parameters: Campaign, Medium, Source
       - Custom Filters and Nested Grouping available
       - Export options (Pivot View, XLSX)
-  - CRM Gamification
-    - Motivates users through challenges, goals, and rewards
+  - [CRM Gamification](./Optimize%20your%20day-to-day%20work/crm-gamification.md)
+    - [Motivates users through challenges, goals, and rewards](./Optimize%20your%20day-to-day%20work/crm-gamification.md#gamification)
     - Requires 'CRM Gamification' App installation
-    - Access via Settings > Gamification tools (Debug mode required)
-    - Create Badges (Rewards)
+    - [Access via Settings > Gamification tools (Debug mode required)](./Optimize%20your%20day-to-day%20work/crm-gamification.md#gamification)
+    - [Create Badges (Rewards)](./Optimize%20your%20day-to-day%20work/crm-gamification.md#create-badges)
       - Awarded upon challenge completion
       - Allowance to Grant
         - Everyone (Manual)
@@ -167,7 +167,7 @@ sidebar_position: 1
         - People having some badges
         - No one, assigned through challenges
       - Monthly Limited Spending option
-    - Create Challenges
+    - [Create Challenges](./Optimize%20your%20day-to-day%20work/crm-gamification.md#create-challenges)
       - Assign Challenge to (Assignment Rules)
       - Periodicity (Auto evaluation time frame)
       - Add Goals (Based on Goal Definition/Target)

@@ -42,3 +42,25 @@
   display: block;
   max-width: 100%;
 }
+
+/* Sơ đồ tư duy Markmap có thể click và hover */
+.markmap-node {
+  cursor: pointer;
+}
+
+/* Reset định dạng link mặc định trong Markmap SVG */
+.markdown svg a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.markdown svg a text {
+  fill: inherit !important;
+}
+
+/* Hiệu ứng hover cho text trong Markmap */
+.markdown svg .markmap-node:hover text {
+  fill: var(--ifm-color-primary) !important;
+  text-decoration: underline !important;
+}
+

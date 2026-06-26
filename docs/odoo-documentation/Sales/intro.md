@@ -6,37 +6,37 @@ sidebar_position: 1
 
 ```markmap initialExpandLevel=2
 - Sales Modules
-  - Point of Sale (POS)
+  - [Point of Sale (POS)](./Point%20of%20Sale/intro.md)
     - Core Functionalities
-      - Start/Close Session
-      - Sell Products
-      - Set Customers/Notes
-      - Return and Refunds
-      - Manage Cash Register (In/Out)
-      - Analytics/Reporting
+      - [Start/Close Session](./Point%20of%20Sale/intro.md#start-a-session)
+      - [Sell Products](./Point%20of%20Sale/intro.md#sell-products)
+      - [Set Customers/Notes](./Point%20of%20Sale/intro.md#set-customers)
+      - [Return and Refunds](./Point%20of%20Sale/intro.md#return-and-refunds-products)
+      - [Manage Cash Register (In/Out)](./Point%20of%20Sale/intro.md#manage-the-cash-register)
+      - [Analytics/Reporting](./Point%20of%20Sale/reporting.md)
     - Configuration
-      - Access POS Settings
+      - [Access POS Settings](./Point%20of%20Sale/Configuration/intro.md)
       - Make Products Available
       - PoS Product Categories
         - Assign Categories
         - Restrict Categories
-      - IoT System Connection
-      - ePOS Printers
+      - [IoT System Connection](./Point%20of%20Sale/Configuration/iot-system-configuration.md)
+      - [ePOS Printers](./Point%20of%20Sale/Configuration/ePOS-printers.md)
         - Directly Supported
         - IoT System Integration
-        - Self-signed certificate
-      - Secure Connection (HTTPS)
+        - [Self-signed certificate](./Point%20of%20Sale/Configuration/self-signed-certificated-for-epos-printers.md)
+      - [Secure Connection (HTTPS)](./Point%20of%20Sale/Configuration/secure-connection.md)
     - Pricing Features
-      - Discounts (Manual/Global/Time-limited)
-      - Discount Tags (Barcode Scanner)
-      - Loyalty Programs
-      - Pricelists
+      - [Discounts (Manual/Global/Time-limited)](./Point%20of%20Sale/Pricing%20features/discounts.md)
+      - [Discount Tags (Barcode Scanner)](./Point%20of%20Sale/Pricing%20features/discount-tags.md)
+      - [Loyalty Programs](./Point%20of%20Sale/Pricing%20features/loyalty-programs.md)
+      - [Pricelists](./Point%20of%20Sale/Pricing%20features/pricelists.md)
         - Flexible Pricelists
         - Create Pricelists
-      - Flexible Taxes (Fiscal Position)
-      - Cash Rounding
-      - Electronic Shelf Labels (ESL)
-    - Hardware Integration
+      - [Flexible Taxes (Fiscal Position)](./Point%20of%20Sale/Pricing%20features/flexible-taxes.md)
+      - [Cash Rounding](./Point%20of%20Sale/Pricing%20features/cash-rounding.md)
+      - [Electronic Shelf Labels (ESL)](./Point%20of%20Sale/Pricing%20features/electronic-shelf-labels.md)
+    - [Hardware Integration](./Point%20of%20Sale/hardware.md)
       - Customer Display
         - Configuration (USB/HDMI/IoT)
         - Opening Display
@@ -44,7 +44,7 @@ sidebar_position: 1
         - IoT System Required
         - Product Configuration (per Kg)
       - Barcode Scanner
-    - Restaurant Features
+    - [Restaurant Features](./Point%20of%20Sale/restaurant-feature.md)
       - Floors and Tables
       - Booking (Enterprise)
       - Order Management (Transfer/Merge)
@@ -54,61 +54,61 @@ sidebar_position: 1
       - Tips (Configuration/Payment)
       - Default Start Screen
     - Orders & Products
-      - Product Combos
-      - Self-Ordering (QR Menu/Kiosk)
-      - Sales Orders (Down Payment/Settle)
-      - Barcodes (Assign/Use)
-      - Serial Numbers and Lots
-      - Ship Later
+      - [Product Combos](./Point%20of%20Sale/product-combos.md)
+      - [Self-Ordering (QR Menu/Kiosk)](./Point%20of%20Sale/self-ordering.md)
+      - [Sales Orders (Down Payment/Settle)](./Point%20of%20Sale/Shop%20features/sales-orders.md)
+      - [Barcodes (Assign/Use)](./Point%20of%20Sale/Shop%20features/barcodes.md)
+      - [Serial Numbers and Lots](./Point%20of%20Sale/Shop%20features/serial-numbers-and-lots.md)
+      - [Ship Later](./Point%20of%20Sale/Shop%20features/ship-later.md)
     - User/Receipts/Payments
-      - Multi-employee Management
+      - [Multi-employee Management](./Point%20of%20Sale/multi-employee-management.md)
         - Access Rights (Minimal/Basic/Advanced)
         - Logging In (PIN/Badges)
-      - Receipts and Invoices
+      - [Receipts and Invoices](./Point%20of%20Sale/receipts-and-invoices.md)
         - Custom Header/Footer
         - Automatic Printing
         - Invoice a Customer
         - QR Codes to Generate Invoices
-      - Payment Methods
-        - Customer Account (Deposit/Settle Debt)
-        - QR Code Payments (Bank App)
-        - Configuration (Journal/Integration)
-      - Marketing Features
+      - [Payment Methods](./Point%20of%20Sale/Payment%20methods/intro.md)
+        - [Customer Account (Deposit/Settle Debt)](./Point%20of%20Sale/Payment%20methods/customer-account.md)
+        - [QR Code Payments (Bank App)](./Point%20of%20Sale/Payment%20methods/qr-code-payments.md)
+        - [Configuration (Journal/Integration)](./Point%20of%20Sale/Payment%20methods/intro.md)
+      - [Marketing Features](./Point%20of%20Sale/marketing-features.md)
         - Storing Contact Details
         - Email Marketing
         - WhatsApp Marketing
   - Sales Module
     - Quotation Management
-      - Tạo Quotation (Customer/Pricelist/Terms)
-      - Quotation Templates
-      - Quotation Deadlines/Expiration
-      - Optional Products (Cross-selling)
-      - Online Signatures for Confirmation
-      - Online Payment Order Confirmation
-      - PDF Quote Builder (Dynamic Text)
-      - Pro-forma Invoices
+      - [Tạo Quotation (Customer/Pricelist/Terms)](./Quotations/create-quotation.md)
+      - [Quotation Templates](./Quotations/quotation-templates.md)
+      - [Quotation Deadlines/Expiration](./Quotations/quotation-deadlines.md)
+      - [Optional Products (Cross-selling)](./Quotations/optional-products.md)
+      - [Online Signatures for Confirmation](./Quotations/online-signatures-order-confirmation.md)
+      - [Online Payment Order Confirmation](./Quotations/online-payment-order-confirmation.md)
+      - [PDF Quote Builder (Dynamic Text)](./Quotations/pdf-quote-builder.md)
+      - [Pro-forma Invoices](./Invoicing%20Method/pro-forma-invoices.md)
       - Mass Cancel Quotations/Orders
         - Creation and Editing Rules
         - Recurring Prices (Subscriptions)
     - Pricing and Products
-      - Discounts (Product Lines/Global/Fixed)
+      - [Discounts (Product Lines/Global/Fixed)](./Product%20and%20prices/Manage%20your%20pricing/discounts.md)
         - Rental Rules
         - Customer Application
-      - Discount & Loyalty Programs (Sales/eCommerce/PoS)
-      - Foreign Currencies
-      - eWallets and Gift Cards
+      - [Discount & Loyalty Programs (Sales/eCommerce/PoS)](./Product%20and%20prices/discount-and-loyalty-program.md)
+      - [Foreign Currencies](./Product%20and%20prices/Manage%20your%20pricing/foreign-currencies.md)
+      - [eWallets and Gift Cards](./Product%20and%20prices/use-ewallet-and-gift-cards.md)
     - Product Management
-      - Product Variants
+      - [Product Variants](./Product%20and%20prices/Manage%20your%20products/product-variants.md)
         - Attributes (Type/Creation Mode)
         - Variant Grid Entry
         - Product Configurator
-      - Import Products (Template/Relation Fields)
-      - Product Images with Google Images API
+      - [Import Products (Template/Relation Fields)](./Product%20and%20prices/Manage%20your%20products/import-products.md)
+      - [Product Images with Google Images API](./Product%20and%20prices/Manage%20your%20products/product-images-with-google-images.md)
     - Order and Delivery
       - General Sale Flow
-      - Deliveries & Invoices to Different Addresses
-      - Returns and Refunds (Before/After Invoicing)
-    - Commissions (Sales Incentives)
+      - [Deliveries & Invoices to Different Addresses](./Quotations/deliveries-invoices-to-different-addresses.md)
+      - [Returns and Refunds (Before/After Invoicing)](./Product%20and%20prices/returns-and-refunds.md)
+    - [Commissions (Sales Incentives)](./commissions.md)
       - Purpose and Setup
       - Structure (Based On: Targets/Achievements)
       - Target-based Plans (Levels)
@@ -116,45 +116,45 @@ sidebar_position: 1
       - Performance Measures (Amount/Quantity/Margin/MRR)
       - Approval and Management
   - Invoicing Methods
-    - Down Payment
+    - [Down Payment](./Invoicing%20Method/down-payment.md)
       - Create Invoices (Percentage/Fixed Amount)
       - Income Account Modification
       - Impact of 100% Down Payment
       - Credit Note Handling
-    - Invoicing Policy
+    - [Invoicing Policy](./Invoicing%20Method/invoice-based-on-delivered-or-order-quantities.md)
       - Invoice What Is Ordered (Default)
       - Invoice What Is Delivered
       - Impact on Sales Flow (Inventory App)
     - Project Billing
-      - Invoice Project Milestones (Create Milestones/Tasks)
-      - Invoicing Time and Materials
+      - [Invoice Project Milestones (Create Milestones/Tasks)](./Invoicing%20Method/invoice-project-milestones.md)
+      - [Invoicing Time and Materials](./Invoicing%20Method/invoicing-based-on-time-and-materials.md)
         - Service Product Configuration (Timesheets)
         - Invoice Time Spent
         - Expense Reinvoicing (Add/Invoice Expenses)
         - Purchase Reinvoicing (Add/Invoice Purchase)
-      - Reinvoice Expenses to Customers
-  - Subscriptions Module
+      - [Reinvoice Expenses to Customers](./Invoicing%20Method/reinvoice-expenses-to-customer.md)
+  - [Subscriptions Module](./Subscriptions/intro.md)
     - Setup and Configuration
-      - Recurring Plans (Billing Period/Self-Service Options)
+      - [Recurring Plans (Billing Period/Self-Service Options)](./Subscriptions/intro.md#setup-recurring-plans)
       - Product Form Configuration (Service Type)
       - Create Subscriptions Quotation
-      - Subscriptions in eCommerce Shop
+      - [Subscriptions in eCommerce Shop](./Subscriptions/subscription-in-ecommerce-shop.md)
     - Lifecycle Management
-      - Upsell Subscriptions
-      - Renew Subscriptions (Manual Renewal)
-      - Close Subscriptions (Closable option/Admin/Customer View)
+      - [Upsell Subscriptions](./Subscriptions/upsell-subscription.md)
+      - [Renew Subscriptions (Manual Renewal)](./Subscriptions/renew-subscriptions.md)
+      - [Close Subscriptions (Closable option/Admin/Customer View)](./Subscriptions/close-subscriptions.md)
     - Automated Processes
-      - Subscriptions and Automatic Payments (Tokenization)
-      - Scheduled Actions
+      - [Subscriptions and Automatic Payments (Tokenization)](./Subscriptions/subscriptions-and-automatic-payments.md)
+      - [Scheduled Actions](./Subscriptions/scheduled-actions.md)
         - Generate Recurring Invoices and Payments
         - Subscriptions Expiration (Automatic Closing)
     - Reporting
-      - Subscription Reports (Quantity/Revenue/Status)
+      - [Subscription Reports (Quantity/Revenue/Status)](./Subscriptions/subscription-reports.md)
       - Retention Analysis
       - MRR Breakdown
       - MRR Timeline
   - Connectors
-    - Shopee Connector
+    - [Shopee Connector](./Connector/shopee.md)
       - Synchronize Confirmed Orders (Shopee to Odoo)
       - Synchronize Inventory (Odoo to Shopee - FBM)
       - Multiple Accounts/Marketplaces Supported
@@ -163,7 +163,7 @@ sidebar_position: 1
       - Order Synchronization (Status Based/Force Sync)
       - Manage Deliveries in FBM (Shipping Label Fetch)
       - Accounting/Reporting (Dedicated Journal/Sales Team)
-    - Gelato Connector (Print-on-Demand)
+    - [Gelato Connector (Print-on-Demand)](./Connector/galeto.md)
       - Sync Sales Orders for Automated Fulfillment
       - Create/Manage Gelato Products in Odoo
       - Configuration (API Keys/Webhooks)
